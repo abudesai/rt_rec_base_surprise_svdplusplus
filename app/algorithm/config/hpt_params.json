@@ -1,0 +1,10 @@
+[
+  {
+    "name": "n_factors",
+    "short_desc": "The number of factors. - default 15",
+    "default": 15,
+    "type": "categorical",
+    "categorical_vals": [5, 10, 15, 25, 50],
+    "run_HPO": true
+  }
+]
