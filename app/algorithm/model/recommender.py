@@ -28,7 +28,7 @@ class Recommender:
         self.n_factors = n_factors
         self.ma = None
         self.mi = None
-        self.model = SVDpp()
+        self.model = SVDpp(n_factors=self.n_factors)
         return
 
     def fit(self, train_X, train_y):
